@@ -22,6 +22,7 @@
     <modules>
         <module>ai-hello</module>
         <module>ai-ollama</module>
+        <module>ai-chat</module>
     </modules>
 
     <properties>

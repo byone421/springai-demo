@@ -8,14 +8,15 @@
         <artifactId>springai-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>ai-hello</artifactId>
 
-    <packaging>jar</packaging>
+    <artifactId>ai-chat</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
     <dependencies>
         <dependency>
@@ -23,10 +24,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-model-deepseek</artifactId>
-        </dependency>
         <!--   使用openai模型  -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
@@ -38,7 +35,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
 
+        <!--   使用ollama模型  -->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-model-ollama</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>
