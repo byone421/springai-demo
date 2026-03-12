@@ -20,6 +20,9 @@ spring:
         options:
           model: qwen3.5-plus
           temperature: 0.7
+      embedding:
+        options:
+          model: text-embedding-v3 #需要你的apikey有权限使用对应的模型
     ollama:
       base-url: http://localhost:11434
       chat:
