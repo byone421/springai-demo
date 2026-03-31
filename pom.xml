@@ -24,6 +24,7 @@
         <module>ai-ollama</module>
         <module>ai-chat</module>
         <module>ai-chat-memory</module>
+        <module>ai-tool-calling</module>
     </modules>
 
     <properties>
