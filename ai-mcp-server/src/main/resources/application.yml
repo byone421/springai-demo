@@ -1,0 +1,8 @@
+server:
+  port: 8086
+spring:
+  ai:
+    mcp:
+      server:
+        name: my-mcp-server
+        version: 1.0.0

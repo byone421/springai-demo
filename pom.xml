@@ -25,6 +25,8 @@
         <module>ai-chat</module>
         <module>ai-chat-memory</module>
         <module>ai-tool-calling</module>
+        <module>ai-mcp-server</module>
+        <module>ai-mcp-client</module>
     </modules>
 
     <properties>

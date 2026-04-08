@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新README">
-      <change afterPath="$PROJECT_DIR$/ai-chat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/ChatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/advisor/MetaDataAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/advisor/SimpleLoggerAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/config/ChatConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/AdvisorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/MetaDataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/ParamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/ResponseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/StreamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/controller/StructuredOutputController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/java/com/byone421/ai/dto/Poem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-chat/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新ai-tool-calling">
+      <change afterPath="$PROJECT_DIR$/ai-mcp-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/McpClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/config/ChatClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/McpServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/config/McpServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/tool/WeatherTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-hello/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,45 +70,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MyController.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ai-hello [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.springai-demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ChatApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.HelloAiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.OllamaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/springai-parent/springai-demo/ai-chat/src/main/java/com/byone421/ai&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MyController.executor": "Run",
+    "Maven.ai-hello [clean].executor": "Run",
+    "Maven.springai-demo [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BookMcpClientApplication.executor": "Debug",
+    "Spring Boot.BookMcpServerApplication.executor": "Debug",
+    "Spring Boot.ChatApplication.executor": "Run",
+    "Spring Boot.ChatMemoryApplication.executor": "Run",
+    "Spring Boot.HelloAiApplication.executor": "Run",
+    "Spring Boot.OllamaApplication.executor": "Run",
+    "Spring Boot.ToolCallingApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/springai-parent/springai-demo/ai-mcp-client/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\springai-parent\springai-demo\ai-mcp-client\src\main\resources" />
+      <recent name="D:\code\springai-parent\springai-demo\ai-tool-calling\src\main\java\com\byone421\ai" />
+      <recent name="D:\code\springai-parent\springai-demo\ai-tool-calling\src\main\resources" />
+      <recent name="D:\code\springai-parent\springai-demo\ai-chat-memory\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-chat\src\main\java\com\byone421\ai" />
-      <recent name="D:\code\springai-parent\springai-demo\ai-chat-stream\src\main\java\com\byone421\ai" />
-      <recent name="D:\code\springai-parent\springai-demo\ai-chat-stream\src\main\resources" />
-      <recent name="D:\code\springai-parent\springai-demo\ai-chat\src\main\resources" />
-      <recent name="D:\code\springai-parent\springai-demo\ai-ollama\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.byone421.ai.controller" />
+      <recent name="com.byone421.ai.config" />
       <recent name="com.byone421.ai.advisor" />
       <recent name="com.byone421.ai" />
     </key>
@@ -128,19 +128,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ChatApplication">
-    <configuration name="MyController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.controller.MyController" />
-      <module name="ai-chat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.byone421.ai.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ai-chat" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.ChatApplication" />
@@ -167,9 +154,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OllamaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ai-ollama" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.OllamaApplication" />
+    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ai-mcp-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.McpClientApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ai-mcp-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.McpServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolCallingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ai-tool-calling" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.ToolCallingApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.byone421.ai.*" />
@@ -182,10 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BookMcpClientApplication" />
+        <item itemvalue="Spring Boot.BookMcpServerApplication" />
         <item itemvalue="Spring Boot.ChatApplication" />
-        <item itemvalue="Application.MyController" />
-        <item itemvalue="Spring Boot.OllamaApplication" />
         <item itemvalue="Spring Boot.HelloAiApplication" />
+        <item itemvalue="Spring Boot.ToolCallingApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +235,18 @@
       <workItem from="1772442761160" duration="3035000" />
       <workItem from="1772524230996" duration="737000" />
       <workItem from="1772525181390" duration="14825000" />
-      <workItem from="1772616013548" duration="13464000" />
+      <workItem from="1772616013548" duration="17223000" />
+      <workItem from="1773047331731" duration="4660000" />
+      <workItem from="1773106613667" duration="618000" />
+      <workItem from="1773107472653" duration="600000" />
+      <workItem from="1773111258344" duration="4049000" />
+      <workItem from="1773196602405" duration="16665000" />
+      <workItem from="1773222939137" duration="1451000" />
+      <workItem from="1773286162109" duration="2999000" />
+      <workItem from="1774514726889" duration="5250000" />
+      <workItem from="1774858028424" duration="5272000" />
+      <workItem from="1774921392072" duration="6014000" />
+      <workItem from="1775630904235" duration="9893000" />
     </task>
     <task id="LOCAL-00001" summary="更新README">
       <option name="closed" value="true" />
@@ -231,7 +256,47 @@
       <option name="project" value="LOCAL" />
       <updated>1772164254809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新ai-chat相关示例api代码">
+      <option name="closed" value="true" />
+      <created>1772690201613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772690201613</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新README">
+      <option name="closed" value="true" />
+      <created>1772693645839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772693645839</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新ai-chat-memory">
+      <option name="closed" value="true" />
+      <created>1773222766368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773222766368</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新ai-chat-memory">
+      <option name="closed" value="true" />
+      <created>1773287217317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773287217317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新ai-tool-calling">
+      <option name="closed" value="true" />
+      <created>1774925910546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774925910546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,8 +314,27 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新ai-chat相关示例api代码" />
     <MESSAGE value="更新README" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新README" />
+    <MESSAGE value="更新ai-chat-memory" />
+    <MESSAGE value="更新ai-tool-calling" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新ai-tool-calling" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/tool/WeatherTool.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.ai.chat.memory.MessageWindowChatMemory" memberName="chatMemoryRepository" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
