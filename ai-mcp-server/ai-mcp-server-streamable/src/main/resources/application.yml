@@ -1,0 +1,25 @@
+server:
+  port: 8087
+spring:
+  ai:
+    mcp:
+      server:
+        enabled: true
+        protocol: STREAMABLE
+        name: streamable-mcp-server
+        version: 1.0.0
+        type: ASYNC
+        instructions: "这个服务提供了天气查询的功能"
+        resource-change-notification: true
+        tool-change-notification: true
+        prompt-change-notification: true
+        capabilities:
+          tool: true
+          resource: true
+          prompt: true
+          completion: true
+        streamable-http:
+          mcp-endpoint: /mcp
+          keep-alive-interval: 30s
+        annotation-scanner:
+          enabled: true

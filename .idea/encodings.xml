@@ -7,7 +7,11 @@
     <file url="file://$PROJECT_DIR$/ai-hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ai-hello/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ai-mcp-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-stateless/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-std/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ai-mcp-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai-mcp-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ai-ollama/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ai-tool-calling/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

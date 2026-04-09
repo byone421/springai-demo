@@ -1,5 +1,5 @@
 server:
-  port: 8087
+  port: 8090
 
 spring:
   main:
@@ -14,10 +14,15 @@ spring:
           temperature: 0.7
     mcp:
       client:
-        sse:
+        enabled: true
+        name: spring-ai-mcp-client
+        version: 1.0.0
+        type: ASYNC
+        streamable-http:
           connections:
-            mcp-server1:
-              url: http://localhost:8086
-        type: async
+            server1:
+              url: http://localhost:8087
+              endpoint: /mcp
         toolcallback:
           enabled: true
+

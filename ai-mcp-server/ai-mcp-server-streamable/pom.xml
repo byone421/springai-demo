@@ -5,17 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.byone421</groupId>
-        <artifactId>springai-demo</artifactId>
+        <artifactId>ai-mcp-server</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ai-mcp-server</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ai-mcp-server-std</module>
-        <module>ai-mcp-server-streamable</module>
-        <module>ai-mcp-server-stateless</module>
-    </modules>
+    <artifactId>ai-mcp-server-streamable</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -23,5 +17,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!--二选一 这里选择webflux-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-starter-mcp-server-webmvc</artifactId>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-mcp-server-webflux</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

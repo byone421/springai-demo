@@ -1,6 +1,7 @@
 package com.byone421.ai.controller;
 
 
+import io.modelcontextprotocol.client.McpClient;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,9 +15,9 @@ public class ChatController {
     @Autowired
     ChatClient openAiChatClient;
 
-
     @GetMapping("/chat")
     public Flux<String> chat(String msg) {
+
         return openAiChatClient.prompt()
                 .user(msg)
                 .stream()
