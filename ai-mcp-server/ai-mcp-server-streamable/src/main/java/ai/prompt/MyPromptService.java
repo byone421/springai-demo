@@ -1,22 +1,21 @@
 package ai.prompt;
 
 import org.springaicommunity.mcp.annotation.McpArg;
+import org.springaicommunity.mcp.annotation.McpComplete;
 import org.springaicommunity.mcp.annotation.McpPrompt;
 import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.prompt.Prompt;
-import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
-import java.util.Map;
+import java.util.List;
 
 @Service
-public class DemoPromptService {
+public class MyPromptService {
 
     /**
      * 让AI生成工作日报，如果AI没有主动调用。可以明确使用daily_report工具。
-     * 比如：使用 daily_report 生成日报，content=今天写了接口开发，role=Java工程师
      */
     @McpPrompt(name = "daily_report", description = "生成工作日报")
     public Mono<Prompt> dailyReportPrompt(

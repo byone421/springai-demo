@@ -5,16 +5,11 @@ import org.springaicommunity.mcp.annotation.McpResource;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
-import java.util.Map;
-
 @Service
-public class DemoResourceService {
+public class MyResourceService {
 
 
-    /**
-     * Resource 示例： 帮我看看帮助文档 resource://docs/help
-     * URI：resource://docs/help
-     */
+
     @McpResource(uri = "resource://docs/help")
     public Mono<String> getHelpDoc() {
         return Mono.just("""

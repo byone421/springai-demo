@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新mcp示例">
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-stateless/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-stateless/src/main/java/ai/StatelessMcpServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-stateless/src/main/java/ai/config/McpServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-stateless/src/main/java/ai/tool/WeatherTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-stateless/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-std/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-std/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/StreamableMcpServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/config/McpServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/prompt/DemoPromptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/prompt/a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/res/DemoResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/tool/WeatherTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/mcp-servers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/controller/ChatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/McpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-std/src/main/java/com/byone421/ai/McpServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/config/McpServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-std/src/main/java/com/byone421/ai/config/McpServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/src/main/java/com/byone421/ai/tool/WeatherTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-std/src/main/java/com/byone421/ai/tool/WeatherTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/prompt/DemoPromptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/prompt/MyPromptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/res/DemoResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/res/MyResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/tool/WeatherTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/tool/WeatherTool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,45 +64,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MyController.executor": "Run",
-    "Maven.ai-hello [clean].executor": "Run",
-    "Maven.ai-mcp-server [package].executor": "Run",
-    "Maven.springai-demo [clean].executor": "Run",
-    "Maven.springai-demo [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.BookMcpClientApplication.executor": "Debug",
-    "Spring Boot.BookMcpServerApplication.executor": "Debug",
-    "Spring Boot.ChatApplication.executor": "Run",
-    "Spring Boot.ChatMemoryApplication.executor": "Run",
-    "Spring Boot.HelloAiApplication.executor": "Run",
-    "Spring Boot.McpClientApplication.executor": "Run",
-    "Spring Boot.McpServerApplication.executor": "Run",
-    "Spring Boot.OllamaApplication.executor": "Run",
-    "Spring Boot.StatelessMcpServerApplication.executor": "Run",
-    "Spring Boot.StreamableMcpServerApplication.executor": "Debug",
-    "Spring Boot.ToolCallingApplication.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/code/springai-parent/springai-demo/ai-mcp-server/ai-mcp-server-stateless/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MyController.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai-hello [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai-mcp-server [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springai-demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springai-demo [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BookMcpClientApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.BookMcpServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ChatApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ChatMemoryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HelloAiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.McpClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.McpServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OllamaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StatelessMcpServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StreamableMcpServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ToolCallingApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/springai-parent/springai-demo/ai-mcp-server/ai-mcp-server-stateless/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -218,10 +200,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ChatApplication" />
+      <item itemvalue="Spring Boot.McpClientApplication" />
+      <item itemvalue="Spring Boot.McpServerApplication" />
+      <item itemvalue="Spring Boot.StatelessMcpServerApplication" />
+      <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
         <item itemvalue="Spring Boot.McpClientApplication" />
+        <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
         <item itemvalue="Spring Boot.StatelessMcpServerApplication" />
         <item itemvalue="Spring Boot.McpServerApplication" />
         <item itemvalue="Spring Boot.ChatApplication" />
@@ -274,7 +263,11 @@
       <workItem from="1775630904235" duration="9966000" />
       <workItem from="1775653070887" duration="4263000" />
       <workItem from="1775694708560" duration="4055000" />
-      <workItem from="1775701293213" duration="21404000" />
+      <workItem from="1775701293213" duration="21828000" />
+      <workItem from="1775737364687" duration="4146000" />
+      <workItem from="1775780848055" duration="7524000" />
+      <workItem from="1775792764281" duration="1495000" />
+      <workItem from="1775806707526" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="更新README">
       <option name="closed" value="true" />
@@ -332,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775640861857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新mcp示例">
+      <option name="closed" value="true" />
+      <created>1775730270811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775730270811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

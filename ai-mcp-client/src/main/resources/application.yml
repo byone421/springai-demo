@@ -20,9 +20,13 @@ spring:
         type: ASYNC
         streamable-http:
           connections:
-            server1:
+            streamable-mcp-server:
               url: http://localhost:8087
               endpoint: /mcp
         toolcallback:
           enabled: true
+        annotation-scanner:
+          enabled: true
+        stdio:
+          servers-configuration: classpath:/mcp-servers.json
 
