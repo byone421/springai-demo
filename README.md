@@ -4,6 +4,10 @@
 - 01-ai-hello (Spring AI入门：第一个AI应用跑起来博客中的代码示例)
 - 02-ai-ollama (Spring AI入门：第一个AI应用跑起来博客中的代码示例)
 - 03-ai-chat (Spring AI核心：API必知必会博客中的代码示例)
+- 04-ai-chat (Spring AI核心：高阶API之ChatMemory博客中的代码示例)
+- 05-ai-tool (Spring AI核心：高阶API之Tool Calling博客中的代码示例)
+- 06-ai-mcp-server和ai-mcp-client (一文搞懂：如何用 Spring AI 搭建 MCP Server 和 Client博客中的代码示例)
+- 07-ai-rag (Spring AI核心：RAG 全链路实战博客中的代码示例)
 
 ## 相关博文
 - [Spring AI伊始：核心概念一次讲清](https://blog.csdn.net/qq_33043795/article/details/157940558)
