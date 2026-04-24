@@ -1,0 +1,20 @@
+server:
+  port: 8091
+spring:
+  ai:
+    openai:
+      api-key: ${qwen}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen3.5-plus
+          temperature: 0.7
+      embedding:
+        options:
+          model: text-embedding-v3
+    vectorstore:
+      pinecone:
+        api-key: ${pinecone}
+        index-name: spring-ai-demo
+  main:
+    allow-bean-definition-overriding: true

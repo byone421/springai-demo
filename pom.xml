@@ -27,6 +27,7 @@
         <module>ai-tool-calling</module>
         <module>ai-mcp-server</module>
         <module>ai-mcp-client</module>
+        <module>ai-rag</module>
     </modules>
 
     <properties>

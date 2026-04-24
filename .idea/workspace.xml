@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新mcp示例">
-      <change afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/mcp-servers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/MultiQueryDocumentRetriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/RagApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/ChatConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/MyDocumentPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/RagConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/controller/RagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/reader/MyJsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/reader/MyMarkdownReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/reader/MyTextReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/transformer/MyTokenTextSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/transformer/SimpleContentFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/json-source.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/md-source.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/text-source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/java/com/byone421/ai/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/prompt/DemoPromptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/prompt/MyPromptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/res/DemoResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/res/MyResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/tool/WeatherTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-server/ai-mcp-server-streamable/src/main/java/ai/tool/WeatherTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,63 +77,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MyController.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ai-hello [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ai-mcp-server [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.springai-demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.springai-demo [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BookMcpClientApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.BookMcpServerApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.ChatApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ChatMemoryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.HelloAiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpClientApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.McpServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.OllamaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.StatelessMcpServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.StreamableMcpServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ToolCallingApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/springai-parent/springai-demo/ai-mcp-server/ai-mcp-server-stateless/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MyController.executor": "Run",
+    "Application.MyTokenTextSplitter.executor": "Run",
+    "Maven.ai-hello [clean].executor": "Run",
+    "Maven.ai-mcp-server [package].executor": "Run",
+    "Maven.springai-demo [clean].executor": "Run",
+    "Maven.springai-demo [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BookMcpClientApplication.executor": "Debug",
+    "Spring Boot.BookMcpServerApplication.executor": "Debug",
+    "Spring Boot.ChatApplication.executor": "Run",
+    "Spring Boot.ChatMemoryApplication.executor": "Run",
+    "Spring Boot.HelloAiApplication.executor": "Run",
+    "Spring Boot.McpClientApplication.executor": "Run",
+    "Spring Boot.McpServerApplication.executor": "Run",
+    "Spring Boot.OllamaApplication.executor": "Run",
+    "Spring Boot.RagApplication.executor": "Debug",
+    "Spring Boot.StatelessMcpServerApplication.executor": "Run",
+    "Spring Boot.StreamableMcpServerApplication.executor": "Run",
+    "Spring Boot.ToolCallingApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/springai-parent/springai-demo/ai-rag/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\springai-parent\springai-demo\ai-rag\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-stateless\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-stateless\src\main\java" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-streamable\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-streamable\src\main\java" />
-      <recent name="D:\code\springai-parent\springai-demo\ai-mcp-client\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-std\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-std\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.byone421.ai.controller" />
       <recent name="com.byone421.ai.config" />
+      <recent name="com.byone421.ai.controller" />
       <recent name="com.byone421.ai.advisor" />
       <recent name="com.byone421.ai" />
     </key>
@@ -134,13 +149,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamableMcpServerApplication">
-    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ai-chat" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.ChatApplication" />
+  <component name="RunManager" selected="Spring Boot.RagApplication">
+    <configuration name="MyTokenTextSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.etl.transformer.MyTokenTextSplitter" />
+      <module name="ai-rag" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="PATTERN" value="com.byone421.ai.etl.transformer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,9 +176,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ai-mcp-server-std" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.McpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RagApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ai-rag" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.RagApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.byone421.ai.*" />
@@ -201,19 +223,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ChatApplication" />
-      <item itemvalue="Spring Boot.McpClientApplication" />
+      <item itemvalue="Application.MyTokenTextSplitter" />
       <item itemvalue="Spring Boot.McpServerApplication" />
+      <item itemvalue="Spring Boot.RagApplication" />
+      <item itemvalue="Spring Boot.McpClientApplication" />
       <item itemvalue="Spring Boot.StatelessMcpServerApplication" />
       <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RagApplication" />
+        <item itemvalue="Application.MyTokenTextSplitter" />
         <item itemvalue="Spring Boot.McpClientApplication" />
         <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
         <item itemvalue="Spring Boot.StatelessMcpServerApplication" />
-        <item itemvalue="Spring Boot.McpServerApplication" />
-        <item itemvalue="Spring Boot.ChatApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +290,10 @@
       <workItem from="1775737364687" duration="4146000" />
       <workItem from="1775780848055" duration="7524000" />
       <workItem from="1775792764281" duration="1495000" />
-      <workItem from="1775806707526" duration="1184000" />
+      <workItem from="1775806707526" duration="2635000" />
+      <workItem from="1776826808449" duration="10029000" />
+      <workItem from="1776847103430" duration="2493000" />
+      <workItem from="1776914209093" duration="23921000" />
     </task>
     <task id="LOCAL-00001" summary="更新README">
       <option name="closed" value="true" />
@@ -333,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775730270811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新mcp示例">
+      <option name="closed" value="true" />
+      <created>1775807993656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775807993656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
