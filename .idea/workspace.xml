@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新mcp示例">
-      <change afterPath="$PROJECT_DIR$/ai-rag/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/MultiQueryDocumentRetriever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/RagApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/ChatConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/MyDocumentPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/config/RagConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/controller/RagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/reader/MyJsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/reader/MyMarkdownReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/reader/MyTextReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/transformer/MyTokenTextSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/java/com/byone421/ai/etl/transformer/SimpleContentFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/json-source.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/md-source.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-rag/src/main/resources/text-source.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新RAG示例">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +274,7 @@
       <workItem from="1775806707526" duration="2635000" />
       <workItem from="1776826808449" duration="10029000" />
       <workItem from="1776847103430" duration="2493000" />
-      <workItem from="1776914209093" duration="23921000" />
+      <workItem from="1776914209093" duration="24986000" />
     </task>
     <task id="LOCAL-00001" summary="更新README">
       <option name="closed" value="true" />
@@ -367,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775807993656</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新RAG示例">
+      <option name="closed" value="true" />
+      <created>1777001499823</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777001499823</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +379,8 @@
     <MESSAGE value="更新ai-chat-memory" />
     <MESSAGE value="更新ai-tool-calling" />
     <MESSAGE value="更新mcp示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新mcp示例" />
+    <MESSAGE value="更新RAG示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新RAG示例" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
