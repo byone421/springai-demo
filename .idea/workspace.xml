@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新RAG示例">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7bbe79bc-1a0f-4570-b55f-c5907c1a1347" name="Changes" comment="更新readme">
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/main/java/com/byone421/ai/MultimodalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/main/java/com/byone421/ai/embedding/EmbeddingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/test/java/com/byone421/ai/EmbeddingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/test/java/com/byone421/ai/ImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/test/java/com/byone421/ai/SpeechTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-multimodal/src/test/java/com/byone421/ai/TranscriptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +72,11 @@
   "keyToString": {
     "Application.MyController.executor": "Run",
     "Application.MyTokenTextSplitter.executor": "Run",
+    "JUnit.EmbeddingTest.executor": "Run",
+    "JUnit.EmbeddingTest.test.executor": "Run",
+    "JUnit.ImageTest.executor": "Run",
+    "JUnit.ImageTest.test.executor": "Run",
+    "JUnit.SpeechTest.test.executor": "Run",
     "Maven.ai-hello [clean].executor": "Run",
     "Maven.ai-mcp-server [package].executor": "Run",
     "Maven.springai-demo [clean].executor": "Run",
@@ -78,6 +93,7 @@
     "Spring Boot.HelloAiApplication.executor": "Run",
     "Spring Boot.McpClientApplication.executor": "Run",
     "Spring Boot.McpServerApplication.executor": "Run",
+    "Spring Boot.MultimodalApplication.executor": "Run",
     "Spring Boot.OllamaApplication.executor": "Run",
     "Spring Boot.RagApplication.executor": "Debug",
     "Spring Boot.StatelessMcpServerApplication.executor": "Run",
@@ -85,15 +101,15 @@
     "Spring Boot.ToolCallingApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/code/springai-parent/springai-demo/ai-rag/src/main/resources",
+    "last_opened_file_path": "D:/code/springai-parent/springai-demo/ai-multimodal/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -104,11 +120,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\springai-parent\springai-demo\ai-multimodal\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-rag\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-stateless\src\main\resources" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-stateless\src\main\java" />
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-streamable\src\main\resources" />
-      <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-streamable\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\springai-parent\springai-demo\ai-mcp-server\ai-mcp-server-std\src\main\resources" />
@@ -130,29 +146,83 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RagApplication">
-    <configuration name="MyTokenTextSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.etl.transformer.MyTokenTextSplitter" />
-      <module name="ai-rag" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.byone421.ai.etl.transformer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ai-mcp-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.McpClientApplication" />
+  <component name="RunManager" selected="JUnit.EmbeddingTest">
+    <configuration name="EmbeddingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-multimodal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.byone421.ai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.byone421.ai" />
+      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.EmbeddingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbeddingTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-multimodal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.byone421.ai" />
+      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.EmbeddingTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-multimodal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.byone421.ai" />
+      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.ImageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-multimodal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.byone421.ai" />
+      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.ImageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeechTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-multimodal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.byone421.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.byone421.ai" />
+      <option name="MAIN_CLASS_NAME" value="com.byone421.ai.SpeechTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,60 +234,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RagApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ai-rag" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.byone421.ai.RagApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.byone421.ai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatelessMcpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ai-mcp-server-stateless" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ai.StatelessMcpServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamableMcpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ai-mcp-server-streamable" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ai.StreamableMcpServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.MyTokenTextSplitter" />
+      <item itemvalue="JUnit.EmbeddingTest" />
+      <item itemvalue="JUnit.ImageTest" />
+      <item itemvalue="JUnit.ImageTest.test" />
+      <item itemvalue="JUnit.SpeechTest.test" />
+      <item itemvalue="JUnit.EmbeddingTest.test" />
       <item itemvalue="Spring Boot.McpServerApplication" />
-      <item itemvalue="Spring Boot.RagApplication" />
-      <item itemvalue="Spring Boot.McpClientApplication" />
-      <item itemvalue="Spring Boot.StatelessMcpServerApplication" />
-      <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RagApplication" />
-        <item itemvalue="Application.MyTokenTextSplitter" />
-        <item itemvalue="Spring Boot.McpClientApplication" />
-        <item itemvalue="Spring Boot.StreamableMcpServerApplication" />
-        <item itemvalue="Spring Boot.StatelessMcpServerApplication" />
+        <item itemvalue="JUnit.EmbeddingTest" />
+        <item itemvalue="JUnit.SpeechTest.test" />
+        <item itemvalue="JUnit.ImageTest.test" />
+        <item itemvalue="JUnit.ImageTest" />
+        <item itemvalue="JUnit.EmbeddingTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +305,10 @@
       <workItem from="1775806707526" duration="2635000" />
       <workItem from="1776826808449" duration="10029000" />
       <workItem from="1776847103430" duration="2493000" />
-      <workItem from="1776914209093" duration="24986000" />
+      <workItem from="1776914209093" duration="26976000" />
+      <workItem from="1777012884935" duration="52000" />
+      <workItem from="1777443528581" duration="909000" />
+      <workItem from="1777444453843" duration="12830000" />
     </task>
     <task id="LOCAL-00001" summary="更新README">
       <option name="closed" value="true" />
@@ -356,7 +390,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777001499823</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="更新readme">
+      <option name="closed" value="true" />
+      <created>1777002668974</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777002668974</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新readme">
+      <option name="closed" value="true" />
+      <created>1777010348499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777010348499</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +430,8 @@
     <MESSAGE value="更新ai-tool-calling" />
     <MESSAGE value="更新mcp示例" />
     <MESSAGE value="更新RAG示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新RAG示例" />
+    <MESSAGE value="更新readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
