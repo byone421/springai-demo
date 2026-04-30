@@ -8,6 +8,7 @@
 - 05-ai-tool (Spring AI核心：高阶API之Tool Calling博客中的代码示例)
 - 06-ai-mcp-server和ai-mcp-client (一文搞懂：如何用 Spring AI 搭建 MCP Server 和 Client博客中的代码示例)
 - 07-ai-rag (Spring AI核心：RAG 全链路实战博客中的代码示例)
+- 08-ai-multimodal (Spring AI 多模态能力全景博客中的代码示例)
 
 ## 相关博文
 - [Spring AI伊始：核心概念一次讲清](https://blog.csdn.net/qq_33043795/article/details/157940558)
@@ -17,5 +18,6 @@
 - [Spring AI核心：高阶API之Tool Calling](https://blog.csdn.net/qq_33043795/article/details/160023998?spm=1011.2415.3001.5331)
 - [一文搞懂：如何用 Spring AI 搭建 MCP Server 和 Client](https://blog.csdn.net/qq_33043795/article/details/160023998?spm=1011.2415.3001.5331)
 - [Spring AI核心：RAG 全链路实战](https://blog.csdn.net/qq_33043795/article/details/160470838)
+- [Spring AI 多模态能力全景](https://blog.csdn.net/qq_33043795/article/details/160646849)
 
 
